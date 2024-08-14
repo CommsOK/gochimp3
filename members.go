@@ -243,7 +243,7 @@ type ListOfMemberActivity struct {
 
 	EmailID  string     `json:"email_id"`
 	ListID   string     `json:"list_id"`
-	Activity []Activity `json:"activity"`
+	Activity []MemberActivity `json:"activity"`
 }
 
 type MemberActivity struct {
